@@ -155,7 +155,13 @@
     animation: fadeDown 0.9s ease both;
     animation-delay: 0.1s;
   }
-  .hero-title .pink  { color: var(--hot-pink); text-shadow: 0 0 40px var(--hot-pink), 0 0 80px var(--hot-pink); }
+  .hero-title .pink  {
+    color: #FFBFA3;
+    -webkit-text-stroke: 2px #ff2d78;
+    text-shadow:
+      0 0 12px rgba(255,45,120,0.6),
+      0 0 30px rgba(255,45,120,0.25);
+  }
   .hero-title .white { color: #fff; }
   .ticker-tag {
     font-family: 'Boogaloo', cursive;
